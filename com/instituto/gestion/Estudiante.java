@@ -2,14 +2,11 @@ package com.instituto.gestion;
 
 
 /**
- * Write a description of class Estudiante here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Representa a un/a estudiante del instituto
+ * @author (Camilo)
  */
-public class Estudiante
-{
-    // instance variables - replace the example below with your own
+public class Estudiante {
+    // Esta es la definición de la clase
     private int x;
 
     /**
