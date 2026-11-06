@@ -15,6 +15,7 @@ public class Estudiante {
     private String nombre;
     private int edad;
     private double notaMedia; // Un número decimal para la nota
+    
     /**
      * Método para mostrar la información del estudiante por consola
      */
@@ -29,5 +30,21 @@ public class Estudiante {
         
         // Y otra sentencia
         System.out.println("Edad: " + edad);
+    }
+    
+    /**
+     * Método para actualizar la nota media del estudiante
+     * No devuelve nada (void)
+     */
+    public void setNotaMedia(double nuevaNota) {
+        // 'nuevaNota' es un PARÁMETRO (un tipo de variable local)
+        // 'notaMedia' es un ATRIBUTO (variable de instancia)
+        notaMedia = nuevaNota;
+        
+        // 'mensaje' es una VARIABLE LOCAL pura
+        // Solo existe desde que se declara hasta que se cierra el método
+        String mensaje = "AVISO: La nota ha sido actualizada.";
+        System.out.println(mensaje);
+        System.out.println("Nota media: " + notaMedia);
     }
 }
