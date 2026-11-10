@@ -66,4 +66,43 @@ public class Estudiante {
         }
         return resultado;
     }
+    
+    /**
+     * Método público (getter) para lerr el nombre del estudiante.
+     * Es necesario porque el atributo 'nombre' es private.
+     */
+    public String getNombre() {
+        return nombre;
+    }
+    
+    /**
+     * Método público (getter) para leer la edad del estudiante.
+     * Es necesario porque el atributo 'edad' es private.
+     */
+    public int getEdad() {
+        return edad;
+    }
+    
+    /**
+     * Método público (getter) para leer la nota media del estudiante.
+     * Es necesario porque el atributo 'notaMedia' es private.
+     */
+    public double getNotaMedia() {
+        return notaMedia;
+    }
+    
+    /**
+     * Método público (setter) para asignar un nombre al estudiante.
+     * Es necesario porque el atributo 'nombre' es private.
+     */
+    public void setNombre(String nuevoNombre) {
+        nombre = nuevoNombre;
+    }
+    
+    /**
+     * Método público (setter) para asignar una edad al estudiante.
+     */
+    public void setEdad(int nuevaEdad) {
+        edad = nuevaEdad;
+    }
 }
