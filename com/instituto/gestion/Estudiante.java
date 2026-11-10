@@ -30,6 +30,9 @@ public class Estudiante {
         
         // Y otra sentencia
         System.out.println("Edad: " + edad);
+        
+        // Una sentencia mas
+        System.out.println("Nota media: " + notaMedia);
     }
     
     /**
@@ -45,6 +48,5 @@ public class Estudiante {
         // Solo existe desde que se declara hasta que se cierra el método
         String mensaje = "AVISO: La nota ha sido actualizada.";
         System.out.println(mensaje);
-        System.out.println("Nota media: " + notaMedia);
     }
 }
