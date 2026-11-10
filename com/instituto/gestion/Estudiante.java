@@ -49,4 +49,21 @@ public class Estudiante {
         String mensaje = "AVISO: La nota ha sido actualizada.";
         System.out.println(mensaje);
     }
+    
+    /**
+     * Métodoque comprueba si el estudiante ha aprobado.
+     * Utiliza una sentencia condicional (if).
+     * Devuelve 'true' si ha aprobado, 'false' si no.
+     */
+    public boolean estaAprobado() {
+        boolean resultado = false;
+        // Un bloque de código para el 'if'
+        if (notaMedia >= 5.0) {
+            resultado = true; // Sentencia
+        } else {
+            // Un bloque de código para el 'else'
+            resultado = false; //Sentencia
+        }
+        return resultado;
+    }
 }
