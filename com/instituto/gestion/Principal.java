@@ -45,5 +45,14 @@ public class Principal {
         // --- Comprobar si han aprobado ---
         System.out.println("¿Ha aprobado " + estudiante1.getNombre() + "?" + estudiante1.estaAprobado());
         System.out.println("¿Ha aprobado " + estudiante2.getNombre() + "?" + estudiante2.estaAprobado());
+        
+        // --- Probando la clase Asignatura ---
+        System.out.println("--- Datos de la Asignatura ---");
+        Asignatura modulo1 = new Asignatura();
+        // Usamos los setters
+        modulo1.setNombre("Bases de datos");
+        modulo1.setCreditos(6);
+        
+        modulo1.mostrarInfoAsignatura();
     }
 }
