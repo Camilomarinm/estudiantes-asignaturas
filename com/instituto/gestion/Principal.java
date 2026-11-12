@@ -25,5 +25,12 @@ public class Principal {
         Estudiante estudiante2 = new Estudiante();
         estudiante2.setNombre("Luis F. Martos");
         estudiante2.setEdad(22);
+        
+        // --- Llamando a sus métodos (acciones) ---
+        System.out.println("--- Mostrando datos del primer estudiante ---");
+        estudiante1.mostrarInformacion();
+        
+        System.out.println("--- Mostrando datos del segundo estudiante ---");
+        estudiante2.mostrarInformacion();
     }
 }
